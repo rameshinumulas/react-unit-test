@@ -17,6 +17,13 @@
     "test": "react-scripts test --coverage --watchAll",
     "eject": "react-scripts eject"
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/components/**/*.{js,jsx}",
+      "!src/components/**/*.test.{js,jsx}",
+      "!src/components/index.js"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
