@@ -1,0 +1,5 @@
+FILE NAME CONVENSION FOR TEST FILES
+
+file with .test.js or .test.tsx suffix
+file with .spec.js or .spec.tsx suffix
+file with .js or .tsx suffix in ___test__ folders.
